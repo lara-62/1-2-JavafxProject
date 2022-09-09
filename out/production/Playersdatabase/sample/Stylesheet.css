@@ -1,0 +1,123 @@
+.btns
+{
+    -fx-background-radius: 100 100 100 100;
+    -fx-background-color:#050e26;
+
+}
+.btns:hover
+{
+    -fx-background-color:lightblue;
+}
+
+.submenu
+{
+    -fx-background-color:transparent;
+    -fx-text-fill: #ffffff;
+    -fx-background-color:#050e26;
+    -fx-border-width:0 0 1 0;
+    -fx-border-color:#ffffff;
+
+
+}
+.cover
+{
+    -fx-background-color:#050e26;
+
+    -fx-border-width:0 0 1 0;
+    -fx-border-color:#ffffff;
+}
+.submenu:hover
+{
+    -fx-background-color:lightblue;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #ffffff;
+}
+.player
+{
+    -fx-background-color:#ffffff ;
+    -fx-border-width: 3 ;
+    -fx-background-radius: 25 25 25 25;
+
+
+}
+
+.scroll
+{
+    -fx-background-color: rgba(256,256,256,0.005);
+}
+.scroll>.viewport
+{
+    -fx-background-color: rgba(256,256,256,0.005);
+}
+.text
+{
+    -fx-background-color: transparent;
+}
+.hbox
+{
+    -fx-border-color:#050e26 ;
+    -fx-border-width: 1;
+    -fx-border-radius:15;
+}
+.ok
+{
+
+    -fx-border-radius: 15;
+    -fx-background-color:#050e26;
+}
+.back:hover
+{
+    -fx-background-color:lightblue;
+}
+.netPlayer
+{
+    -fx-background-color: rgba(75,86,105,0.3);
+}
+.netPlayer:hover
+{
+    -fx-background-color:#050e26;
+
+}
+.market
+{
+
+    -fx-background-color: transparent;
+}
+
+.market:hover
+{
+-fx-background-color:rgba(75,86,105,0.3);
+    -fx-border-width: 0 0 0 1;
+    -fx-border-color: #ffffff;
+
+}
+.market:focused
+{
+    -fx-background-color:rgba(75,86,105,0.3);
+}
+.test
+{
+    -fx-background-color: transparent;
+}
+.test:focused
+{
+    -fx-background-color:rgba(75,86,105,0.3);
+}
+
+.button_login
+{
+   -fx-background-color: transparent;
+    -fx-background-color:#ffffff ;
+    -fx-background-radius: 10 ;
+}
+.button_login:hover
+{
+    -fx-background-color:rgba(75,86,105,0.3);
+}
+
+.textfield
+{
+
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}

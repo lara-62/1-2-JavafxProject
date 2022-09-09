@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="108.0" prefWidth="1000.0" style="-fx-background-color: #ffffff; -fx-border-radius: 50;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Players_show_data.Country_wise_player_count_controller">
+   <children>
+      <Label fx:id="Countryid" prefHeight="30.0" prefWidth="418.0" text="Country Name:" textFill="#050e26">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="27.0" />
+         </font>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
+      </Label>
+      <Label fx:id="count" layoutX="325.0" layoutY="72.0" prefHeight="31.0" prefWidth="109.0" text="Player_count" textFill="#050e26">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="28.0" />
+         </font>
+         <HBox.margin>
+            <Insets left="70.0" />
+         </HBox.margin>
+      </Label>
+      <Label layoutX="477.0" layoutY="72.0" prefHeight="27.0" prefWidth="240.0" text="Players" textFill="#050e26">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>

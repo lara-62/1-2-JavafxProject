@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="650.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="76.0" prefWidth="650.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="424.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="image" fitHeight="64.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/foot1.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="100.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="TEXT_ONLY" prefHeight="35.0" prefWidth="362.0" text="Football Player Database System" textFill="#050e26" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold Italic" size="22.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="-3.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="61.0" layoutY="95.0" prefHeight="154.0" prefWidth="527.0" spacing="50.0">
+         <children>
+            <Button fx:id="button1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Search_by_players" prefHeight="140.0" prefWidth="190.0" styleClass="btns" stylesheets="@Stylesheet.css" text="Search Players" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" height="70.77" radius="36.97" spread="0.15" width="79.11">
+                     <color>
+                        <Color red="0.013645224273204803" green="0.047238465398550034" blue="0.10526315867900848" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="button2" alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="16.0" mnemonicParsing="false" onAction="#Search_by_Club" prefHeight="140.0" prefWidth="190.0" styleClass="btns" stylesheets="@Stylesheet.css" text=" Search Clubs" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow height="71.96" radius="34.885" width="69.58">
+                     <color>
+                        <Color red="0.02982456050813198" green="0.0845029205083847" blue="0.17894737422466278" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutY="268.0" prefHeight="154.0" prefWidth="650.0" spacing="50.0">
+         <children>
+            <Button fx:id="button3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#marketing" prefHeight="140.0" prefWidth="190.0" styleClass="btns" stylesheets="@Stylesheet.css" text="Login As Club" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow height="84.60499999999999" radius="39.121249999999996" width="73.88">
+                     <color>
+                        <Color red="0.0362573117017746" green="0.08085770159959793" blue="0.15789473056793213" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="button4" alignment="CENTER" contentDisplay="CENTER" layoutX="177.0" layoutY="16.0" mnemonicParsing="false" onAction="#news_portal" prefHeight="140.0" prefWidth="190.0" styleClass="btns" stylesheets="@Stylesheet.css" text="News Forum" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" height="81.03" radius="39.417500000000004" width="78.64">
+                     <color>
+                        <Color red="0.022300194948911667" green="0.06429889798164368" blue="0.13684210181236267" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <Separator layoutX="4.0" layoutY="77.0" prefHeight="2.0" prefWidth="643.0">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" height="0.0" radius="0.0" width="0.0" />
+         </effect>
+      </Separator>
+      <Button layoutX="297.0" layoutY="458.0" minHeight="20.0" minWidth="38.0" mnemonicParsing="false" onAction="#ExitFromsystem" prefHeight="28.0" prefWidth="54.0" style="-fx-background-radius: 10;" styleClass="submenu" stylesheets="@Stylesheet.css" text="Exit" />
+   </children>
+</AnchorPane>

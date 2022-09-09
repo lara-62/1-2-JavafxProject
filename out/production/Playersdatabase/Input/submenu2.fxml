@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Input.Submenu2_controller">
+   <children>
+      <VBox alignment="CENTER" layoutX="-8.0" layoutY="155.0" prefHeight="299.0" prefWidth="506.0" spacing="1.0" AnchorPane.topAnchor="153.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="280.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#maximum_salary" prefHeight="60.0" prefWidth="490.0" styleClass="submenu" stylesheets="@../sample/Stylesheet.css" text=" Player(s) with the maximum salary of a club" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="-1.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="230.0" prefHeight="54.0" prefWidth="298.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#maximum_age" prefHeight="73.0" prefWidth="490.0" styleClass="submenu" stylesheets="@../sample/Stylesheet.css" text=" Player(s) with the maximum age of a club" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="200.0" prefHeight="60.0" prefWidth="505.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#maximum_height" prefHeight="60.0" prefWidth="490.0" styleClass="submenu" stylesheets="@../sample/Stylesheet.css" text=" Player(s) with the maximum height of a club" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="170.0" prefHeight="60.0" prefWidth="280.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#total_yearly_salary" prefHeight="60.0" prefWidth="490.0" styleClass="submenu" stylesheets="@../sample/Stylesheet.css" text=" Total yearly salary of a club" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="110.0" prefHeight="60.0" prefWidth="314.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#Back_to_main_menu" prefHeight="60.0" prefWidth="490.0" styleClass="submenu" stylesheets="@../sample/Stylesheet.css" text=" Back to Main Menu" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="-4.0" prefHeight="158.0" prefWidth="835.0" styleClass="cover" stylesheets="@../sample/Stylesheet.css">
+         <children>
+            <Label text="SEARCH CLUBS" textFill="WHITE">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="499.0" layoutY="151.0" prefHeight="108.0" prefWidth="310.0" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="241.0" AnchorPane.leftAnchor="499.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="151.0">
+         <children>
+            <HBox fx:id="hbox" alignment="CENTER" prefHeight="40.0" prefWidth="299.0" spacing="10.0" styleClass="hbox" stylesheets="@../sample/Stylesheet.css">
+               <children>
+                  <TextField fx:id="textfield" alignment="CENTER" prefHeight="34.0" prefWidth="245.0" promptText="Enter the name of the Club" styleClass="text" stylesheets="@../sample/Stylesheet.css">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="14.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="okButton" mnemonicParsing="false" onAction="#ok" prefHeight="26.0" prefWidth="66.0" styleClass="ok" stylesheets="@../sample/Stylesheet.css" text="OK" textFill="WHITE">
+                     <font>
+                        <Font name="Bank Gothic Medium BT" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox layoutY="462.0" prefHeight="39.0" prefWidth="835.0" styleClass="cover" stylesheets="@../sample/Stylesheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="453.0" />
+      <VBox alignment="CENTER" layoutX="490.0" layoutY="243.0" prefHeight="200.0" prefWidth="318.0" spacing="30.0" style="-fx-background-color: transparent;">
+         <children>
+            <Label fx:id="total_salary1" alignment="CENTER" prefHeight="39.0" prefWidth="329.0" style="-fx-background-color: transparent;" visible="false">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_salary3" alignment="CENTER" layoutX="20.0" layoutY="91.0" prefHeight="34.0" prefWidth="238.0" style="-fx-background-color: transparent;" text="TOTAL YARLY SALARY" visible="false">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total_salary2" alignment="CENTER" layoutX="56.0" layoutY="125.0" prefHeight="39.0" prefWidth="238.0" style="-fx-background-color: transparent;" visible="false">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="-30.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

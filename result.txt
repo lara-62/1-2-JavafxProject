@@ -1,0 +1,4 @@
+Manchester City,Liverpool,image/manchester-city.png,image/liverpool.png,25/5/202,2,0
+Chelsea,Arsenal,image/chelsea.png,image/arsenal.png,3/6/2022,1,1
+Liverpool,Arsenal,image/liverpool.png,image/arsenal.png,5/7/2022,2,1
+Manchester United,Manchester City,image/manchester-united.png,image/manchester-city.png,20/5/2022,3,0

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" style="-fx-background-color: #050e26;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.show_controller">
+   <children>
+      <HBox alignment="CENTER" prefHeight="153.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="name" alignment="CENTER" prefHeight="68.0" prefWidth="400.0" styleClass="netPlayer" stylesheets="@../sample/Stylesheet.css" textFill="WHITE">
+               <font>
+                  <Font name="Bank Gothic Medium BT" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+         <children>
+            <Button layoutX="165.0" layoutY="46.0" mnemonicParsing="false" onAction="#Shoe_detail" prefHeight="26.0" prefWidth="90.0" text="DETAIL">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="buyid" mnemonicParsing="false" onAction="#Buyaction" prefHeight="30.0" prefWidth="90.0" text="BUY">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="sellid" layoutX="104.0" layoutY="44.0" mnemonicParsing="false" onAction="#sell_action" prefHeight="30.0" prefWidth="90.0" text="SELL">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
